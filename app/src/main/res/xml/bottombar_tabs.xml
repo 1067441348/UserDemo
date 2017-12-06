@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@mipmap/ic_launcher"
+        title="1"
+        barColorWhenSelected="#ebebeb" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@mipmap/ic_launcher"
+        title="2"
+        barColorWhenSelected="#ebebeb" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@mipmap/ic_launcher"
+        title="3"
+        barColorWhenSelected="#ebebeb" />
+</tabs>

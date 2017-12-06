@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="96dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#ebebeb"/>
+    <com.roughike.bottombar.BottomBar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_inActiveTabColor="#222222"
+        app:bb_activeTabColor="@color/colorPrimary"
+        app:bb_tabXmlResource="@xml/bottombar_tabs" />
+</RelativeLayout>
