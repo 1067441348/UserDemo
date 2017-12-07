@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.example.syl.myapplication_test.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btn_retrofit,btn_hxim,btn_eventbus;
+    Button btn_retrofit,btn_hxim,btn_eventbus,btn_gilde;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,9 +17,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_retrofit = (Button)findViewById(R.id.btn_retrofit);
         btn_hxim = (Button)findViewById(R.id.btn_hxim);
         btn_eventbus = (Button)findViewById(R.id.btn_eventbus);
+        btn_gilde = (Button) findViewById(R.id.btn_gilde);
         btn_retrofit.setOnClickListener(this);
         btn_hxim.setOnClickListener(this);
         btn_eventbus.setOnClickListener(this);
+        btn_gilde.setOnClickListener(this);
 
     }
 
@@ -34,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_eventbus:
                 startActivity(new Intent(MainActivity.this,EventBusActivity.class));
+                break;
+            case R.id.btn_gilde:
+                startActivity(new Intent(MainActivity.this,GildeActivity.class));
                 break;
         }
     }

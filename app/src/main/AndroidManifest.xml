@@ -96,7 +96,6 @@
         </activity>
         <!-- LeakCanary -->
 
-
         <activity
             android:name=".activity.FriendActivity"
             android:label="@string/app_name"
@@ -115,6 +114,10 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.GildeActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
