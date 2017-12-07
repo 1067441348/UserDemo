@@ -19,5 +19,5 @@
     <string name="main_retrofit">retrofit</string>
     <string name="main_hxim">环信即时通讯</string>
     <string name="main_eventbus">eventbus</string>
-    <string name="main_gilde">Gilde</string>
+    <string name="main_gilde">Glide和Picasso</string>
 </resources>
