@@ -25,7 +25,7 @@ public class TestApplication extends Application {
     public void onCreate() {
         super.onCreate();
         refWatcher = LeakCanary.install(this);
-        hxIminit();
+        //hxIminit();
     }
 
     public static RefWatcher getRefWatcher(Context context) {
