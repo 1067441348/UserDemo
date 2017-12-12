@@ -91,7 +91,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onSuccess() {
                 EMClient.getInstance().groupManager().loadAllGroups();
                 EMClient.getInstance().chatManager().loadAllConversations();
-                Log.d("main", "登录聊天服务器成功！");
+                Log.e("shen", "登录聊天服务器成功！");
                 startActivity(new Intent(LoginActivity.this, FriendActivity.class));
             }
 
@@ -102,8 +102,8 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onError(int code, String message) {
-                Log.d("main", "登录聊天服务器失败！");
-                Log.d("main", message);
+                Log.e("shen", "登录聊天服务器失败！");
+                Log.e("shen", message);
             }
         });
 
@@ -122,6 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                 try {
                     EMClient.getInstance().createAccount(email, password);//同步方法
                 } catch (HyphenateException e) {
+                    Log.e("shen",e.toString());
                     e.printStackTrace();
                 }
             }
