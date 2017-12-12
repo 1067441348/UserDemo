@@ -20,4 +20,5 @@
     <string name="main_hxim">环信即时通讯</string>
     <string name="main_eventbus">eventbus</string>
     <string name="main_gilde">Glide和Picasso</string>
+    <string name="main_red">红包雨自定义控件</string>
 </resources>

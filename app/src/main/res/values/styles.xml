@@ -16,5 +16,10 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
+    <declare-styleable name="RedPacketStyle">
+        <attr name="count" format="integer" />
+        <attr name="speed" format="integer" />
+        <attr name="max_size" format="float" />
+        <attr name="min_size" format="float" />
+    </declare-styleable>
 </resources>
